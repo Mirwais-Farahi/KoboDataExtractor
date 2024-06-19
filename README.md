@@ -8,7 +8,8 @@
 
 ## Installation:
 ```
-pip install --upgrade git+https://github.com/Mirwais-Farahi/KoboDataExtractor.git
+!pip install --upgrade git+https://github.com/mirwais-farahi/KoboDataExtractor.git
+
 ```
 ## Usage:
 ```

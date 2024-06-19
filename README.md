@@ -10,4 +10,4 @@ Installation:
 - You can install the package using pip:
 
 ```bash
-pip install git+https://github.com/your-username/your-repo.git
+pip install git+https://github.com/Mirwais-Farahi/KoboDataExtractor.git

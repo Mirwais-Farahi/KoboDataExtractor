@@ -13,8 +13,3 @@ class KoboDataExtractor:
             return df
         else:
             return None
-
-# Function to directly get data
-def get_data(api_token, base_url, form_uid, query=None, start=None, limit=None, submitted_after=None):
-    kobo_extractor = KoboDataExtractor(api_token, base_url)
-    return kobo_extractor.get_data(form_uid, query, start, limit, submitted_after)

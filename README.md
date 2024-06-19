@@ -26,3 +26,16 @@ data_df = kobo_extractor.get_data(form_uid)
 # Process data_df as needed
 print(data_df.head())
 ```
+
+- get_data method has the following format of arguments: get_data(form_uid, query, start, limit, submitted_after)
+
+The number of downloaded results is available in ``data_df['count']``.
+'''
+data_df = kobo_extractor.sort_results_by_time(data_df['results'])
+'''
+
+Download all responses submitted after a certain point in time:
+
+```
+data_df = kobo_extractor.get_data(asset_uid, submitted_after='2020-05-20T17:29:30')
+```

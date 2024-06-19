@@ -13,7 +13,7 @@
 ```
 ## Usage:
 ```
-from kobo_data_extractor.extractor import KoboDataExtractor
+from KoboDataExtractor.extractor import KoboDataExtractor
 
 # Example usage
 api_token = 'your_api_token'

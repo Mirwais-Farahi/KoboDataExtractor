@@ -1,6 +1,6 @@
 # main.py
 
-from kobo_data_module import KoboDataFetcher
+from KoboDataExtractor.KoboDataFetcher import KoboDataFetcher
 
 def main():
     # Prompt user to input base URL, API token, asset UID, and limit
